@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PUM4APP</string>
+    <string name="enterTextToSpeech">Wprowadź tekst do wypowiedzenia</string>
+    <string name="pickFile">Wybierz plik</string>
+</resources>

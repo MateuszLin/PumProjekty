@@ -1,0 +1,2 @@
+rootProject.name='PUM2APP'
+include ':app'

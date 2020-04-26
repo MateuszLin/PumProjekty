@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".OrderPizzaActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#ff993300"
+            android:textColor="#FFFFFF"
+            android:text="@string/TypeOfDough"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:id="@+id/typeOfDough"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2">
+
+            <RadioButton
+                android:id="@+id/rBtnFat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thick"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rBtnThin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Thin"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/SizeOfPizza"
+            android:textSize="14sp"
+            android:layout_below="@id/typeOfDough"
+            android:background="#ff993300"
+            android:textColor="#FFFFFF"
+            />
+
+        <RadioGroup
+            android:id="@+id/sizeOfPizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3">
+
+            <RadioButton
+                android:id="@+id/rBtnSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Small"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rBtnMiddle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Middle"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rBtnBig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Big"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/BasicIngredients"
+            android:textSize="14sp"
+            android:layout_below="@id/sizeOfPizza"
+            android:background="#ff993300"
+            android:textColor="#FFFFFF"
+            />
+
+        <CheckBox
+            android:id="@+id/checkHam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/Ham"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkCheese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkHam"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/Cheese"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkMushrroms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkCheese"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/Mushrooms"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkOlives"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkMushrroms"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/Olives"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBacon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkOlives"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/Bacon"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkChicken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkBacon"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/Chicken"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkOnion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkChicken"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/Onion"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/ExtraIngredients"
+            android:textSize="14sp"
+            android:layout_below="@id/checkOnion"
+            android:background="#ff993300"
+            android:textColor="#FFFFFF"
+            />
+
+        <CheckBox
+            android:id="@+id/checkGarlic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/Garlic"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkSalami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkGarlic"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/Salami"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkCapers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkSalami"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/Capers"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkTuna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkCapers"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/tuna"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkTomatoSauce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkTuna"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/Tomatosouce"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkGarlicSauce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkTomatoSauce"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/GarlicSauce"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkOregano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkGarlicSauce"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/Oregano"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/OrderBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkOregano"
+            android:text="@string/Order"
+            android:layout_margin="6dp"
+            />
+
+    </RelativeLayout>
+</ScrollView>

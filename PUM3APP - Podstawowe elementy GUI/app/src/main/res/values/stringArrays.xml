@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Country_array">
+        <item>Polska</item>
+        <item>Niemcy</item>
+        <item>Francja</item>
+        <item>Holandia</item>
+        <item>Czechy</item>
+        <item>Słowacja</item>
+        <item>Białoruś</item>
+        <item>Rosja</item>
+        <item>Anglia</item>
+    </string-array>
+    <string-array name="Country_shortcuts">
+        <item>PL</item>
+        <item>DE</item>
+        <item>FR</item>
+        <item>NL</item>
+        <item>CZ</item>
+        <item>SK</item>
+        <item>BY</item>
+        <item>R</item>
+        <item>EN</item>
+    </string-array>
+</resources>
