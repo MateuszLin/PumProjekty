@@ -42,7 +42,7 @@ wykorzystać np. atrybut tag, który można uzupełnić dolnym łańcuchem znak�
 
 # 5. Dialogi i mechanizm intencji
 
-- Status: Dłubię
+- Status: Wysłane
 - Ocena: -
 - Uwagi: -
 
