@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PUM5APP</string>
+    <string name="learnEng">Nauka Angielskiego</string>
+    <string name="notes">Notatki</string>
+    <string name="test">Test</string>
+    <string name="learn">Nauka</string>
+    <string name="learnLanguage">Język do nauki</string>
+    <string name="mode">Tryb</string>
+    <string name="polish">Polski</string>
+    <string name="english">Angielski</string>
+    <string name="next">Dalej</string>
+    <string name="pumapp">Pum5APP wer. 1.0.0.0. Autor Mateusz Lindel</string>
+    <string name="about">O programie</string>
+    <string name="translation">Tłumaczenie</string>
+    <string name="writeText">Wpisz tłumaczenie!</string>
+    <string name="doUWantFinish">Czy chcesz zakończyć?</string>
+    <string name="endTest">Zakończyć test?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="testResult">Twój wynik</string>
+    <string name="numberGoodAnswer">Liczba dobrych odpowiedzi</string>
+    <string name="numberOfQuestion">Liczba pytań</string>
+    <string name="takephoto">Zrób zdjęcie</string>
+    <string name="showPhoto">Galeria</string>
+</resources>

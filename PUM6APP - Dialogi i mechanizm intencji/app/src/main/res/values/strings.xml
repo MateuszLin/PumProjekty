@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PUM5APP</string>
+    <string name="learnEng">Learn English</string>
+    <string name="notes">Notes</string>
+    <string name="polish">Polish</string>
+    <string name="english">English</string>
+    <string name="mode">Mode</string>
+    <string name="learnLanguage">Language to learn</string>
+    <string name="learn">Learn</string>
+    <string name="test">Test</string>
+    <string name="next">Next</string>
+    <string name="about">About</string>
+    <string name="pumapp">Pum5APP ver. 1.0.0.0. Developed by Mateusz Lindel</string>
+    <string name="translation">Translation</string>
+    <string name="writeText">Write translation!</string>
+    <string name="doUWantFinish">Do You want to finish test?</string>
+    <string name="endTest">Close  test?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="testResult">Your test result</string>
+    <string name="numberGoodAnswer">Number of good answer</string>
+    <string name="numberOfQuestion">Number of question</string>
+    <string name="takephoto">Take photo</string>
+    <string name="showPhoto">Gallery</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

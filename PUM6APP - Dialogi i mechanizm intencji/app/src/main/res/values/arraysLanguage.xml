@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countryPolish">
+        <item>Polska</item>
+        <item>Niemcy</item>
+        <item>Francja</item>
+        <item>Holandia</item>
+        <item>Czechy</item>
+        <item>Słowacja</item>
+        <item>Rosja</item>
+        <item>Anglia</item>
+    </string-array>
+    <string-array name="countryEnglish">
+        <item>Poland</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>Netherlands</item>
+        <item>Czech</item>
+        <item>Slovakia</item>
+        <item>Russia</item>
+        <item>England</item>
+    </string-array>
+</resources>
