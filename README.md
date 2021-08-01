@@ -43,15 +43,9 @@ wykorzystać np. atrybut tag, który można uzupełnić dolnym łańcuchem znak�
 # 5. Dialogi i mechanizm intencji
 
 - Status: Wysłane
-- Ocena: -
-- Uwagi: -
+- Ocena: - 100/100
 
 
-# 6. Projekt zaliczeniowy
-
-- Status: Nie zaczęte
-- Ocena: -
-- Uwagi: -
 
 
 
